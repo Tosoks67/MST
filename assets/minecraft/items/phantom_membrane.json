@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/phantom_membrane"
+        },
+        "entries": [
+			{
+				"threshold": 6712,
+				"model": {
+					"type": "model",
+					"model": "item/mask"
+				}
+			},
+			{
+				"threshold": 6713,
+				"model": {
+					"type": "model",
+					"model": "item/osdmask"
+				}
+			},
+			{
+				"threshold": 6714,
+				"model": {
+					"type": "model",
+					"model": "item/ssomask"
+				}
+			},
+			{
+				"threshold": 6715,
+				"model": {
+					"type": "model",
+					"model": "item/berret"
+				}
+			}
+        ]
+    }
+}
