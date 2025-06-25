@@ -32,7 +32,7 @@
         "threshold": 4,
         "model": {
           "type": "model",
-          "model": "item/m249"
+          "model": "item/machine_gun"
         }
       }
 	]
